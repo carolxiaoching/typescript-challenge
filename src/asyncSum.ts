@@ -14,6 +14,7 @@ export function asyncSum(numbers: number[]): Promise<number> {
             resolve(sum);
         } catch(error) {
             reject(error);
+            
         }
     });
 }
